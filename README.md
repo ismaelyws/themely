@@ -5,9 +5,13 @@
 
 Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+**For Web Hosting Companies**
+
+1. Advantage line here
+2. Advantage line here
+3. Advantage line here
+4. Advantage line here
+5. Advantage line here
 
 
 ## Live Demo
