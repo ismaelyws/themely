@@ -10,8 +10,10 @@ When you're done, you can delete the content in this README and update the file 
 
 ## Installation Instructions
 
-Login to your Server as root and run the following commands:
+Login to your server as root and run the following commands:
 
 `wget -N http://172.105.27.117/install.sh`
+
 `chmod 755 install.sh`
+
 `./install.sh`
