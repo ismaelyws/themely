@@ -1,11 +1,13 @@
 # Themely cPanel Plugin
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QGuu8VMi2oI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **WordPress Auto-Installer & Theme Directory**
 
 Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 
 ## Live Demo
