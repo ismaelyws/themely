@@ -1,5 +1,5 @@
 # Themely cPanel Plugin
-======
+---
 
 **WordPress Auto-Installer & Theme Directory**
 
