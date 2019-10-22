@@ -14,9 +14,9 @@ I've set up a server with a cPanel license for you to test & see how it works.
 
 URL: https://li1982-117.members.linode.com/cpanel
 
-Username: oneclickwpinstal
+Username: `oneclickwpinstal`
 
-Password: 47623510
+Password: `47623510`
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
