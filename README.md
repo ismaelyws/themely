@@ -2,7 +2,8 @@
 
 **WordPress Auto-Installer & Theme Directory**
 
-Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, but it pays you each month.
+Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
+
 
 ---
 
@@ -16,6 +17,9 @@ Username: *oneclickwpinstal*
 
 Password: 47623510
 
+Once logged in, scroll down to the **Software section** and click **Install WordPress**.
+
+
 ---
 
 ## Installation Instructions
@@ -27,6 +31,7 @@ Login to your server as root and run the following commands:
 `chmod 755 install.sh`
 
 `./install.sh`
+
 
 ---
 
