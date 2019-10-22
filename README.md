@@ -1,22 +1,20 @@
 # Themely cPanel Plugin
 
-**WordPress auto-installer & theme directory**
+**WordPress Auto-Installer & Theme Directory**
 
-Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WWordPress themes from talented developers around the world. Not only is it free, but it pays you each month per cPanel account.
+Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, but it pays you each month.
 
 ---
 
 ## Live Demo
 
-I've set up a demo server with a cPanel license for you to test & see how it works.
+I've set up a server with a cPanel license for you to test & see how it works.
 
-https://li1982-117.members.linode.com/cpanel
+URL: https://li1982-117.members.linode.com/cpanel
 
-Username: oneclickwpinstal
+Username: *oneclickwpinstal*
 
-Password: 123456789
-
-
+Password: 47623510
 
 ---
 
@@ -29,3 +27,15 @@ Login to your server as root and run the following commands:
 `chmod 755 install.sh`
 
 `./install.sh`
+
+---
+
+## Removal Instructions
+
+Login to your server as root and run the following commands:
+
+`wget -N http://172.105.27.117/uninstall.sh`
+
+`chmod 755 uninstall.sh`
+
+`./uninstall.sh`
