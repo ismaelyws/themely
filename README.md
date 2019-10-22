@@ -1,10 +1,22 @@
 # Themely cPanel Plugin
 
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**WordPress auto-installer & theme directory**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WWordPress themes from talented developers around the world. Not only is it free, but it pays you each month per cPanel account.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+---
+
+## Live Demo
+
+I've set up a demo server with a cPanel license for you to test & see how it works.
+
+https://li1982-117.members.linode.com/cpanel
+
+Username: oneclickwpinstal
+
+Password: 123456789
+
+
 
 ---
 
