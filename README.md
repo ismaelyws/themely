@@ -28,6 +28,13 @@ Password: `47623510`
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
 
+## System Requirements
+---
+
+A Linux server running CentOS 6 or 7 with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements#InstallationGuide-SystemRequirements-Operatingsystems
+
+
+
 ## Installation Instructions
 ---
 
