@@ -33,7 +33,6 @@ To **install** the plugin login to your server as root and run the following com
 `./install.sh`
 
 
-
 ## Removal Instructions
 ---
 
