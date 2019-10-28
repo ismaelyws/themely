@@ -5,6 +5,13 @@
 
 Themely cPanel plugin is an easy-to-use, one-click WordPress installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
+**For Web Hosting Companies**
+
+1. Advantage line here
+2. Advantage line here
+3. Advantage line here
+4. Advantage line here
+5. Advantage line here
 
 
 ## Live Demo
@@ -19,6 +26,13 @@ Username: `oneclickwpinstal`
 Password: `47623510`
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
+
+
+## System Requirements
+---
+
+A Linux server running CentOS 6 or 7 with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements#InstallationGuide-SystemRequirements-Operatingsystems
+
 
 
 ## Installation Instructions
