@@ -3,7 +3,7 @@
 # PURPOSE: Remove the One-Click WP Installer plugin from cPanel
 # AUTHOR: Ishmael 'Hans' Desjarlais <ismaelyws@gmail.com>
 # REMOVAL INSTRUCTIONS:
-# wget -N http://172.105.27.117/uninstall.sh
+# wget -N https://bitbucket.org/ismaelyws/themely/raw/6d0f897d43b3ad198ab7c8803d4a7c2eb9effa64/uninstall.sh
 # chmod 755 uninstall.sh
 # ./uninstall.sh
 clear

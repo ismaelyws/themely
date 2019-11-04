@@ -3,7 +3,7 @@
 # PURPOSE: Install the One-Click WP Installer plugin into cPanel
 # AUTHOR: Ishmael 'Hans' Desjarlais <ismaelyws@gmail.com>
 # INSTALLATION INSTRUCTIONS:
-# wget -N http://172.105.27.117/install.sh
+# wget -N https://bitbucket.org/ismaelyws/themely/raw/6d0f897d43b3ad198ab7c8803d4a7c2eb9effa64/install.sh
 # chmod 755 install.sh
 # ./install.sh
 clear
