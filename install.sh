@@ -12,14 +12,15 @@ echo "Installing One-Click WP Installer cPanel Plugin"
 echo "-----------------------------------------------"
 # Create the directory for the plugin
 mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
-# Get the plugin files from Github
-curl -s http://172.105.27.117/ocwpi.tar.gz > /root/ocwpi.tar.gz
+# Get plugin files from repository
+curl -s https://bitbucket.org/ismaelyws/themely/downloads/ocwpi.tar.gz > /root/ocwpi.tar.gz
 # Uncompress the archive
 tar xzf ocwpi.tar.gz
 # Move files to /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer directory
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
 mv /root/process.php /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
 mv /root/search.php /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
+mv /root/dbconfig.php /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
 mv /root/style.css /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
 mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
 mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
