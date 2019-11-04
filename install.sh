@@ -13,7 +13,7 @@ echo "-----------------------------------------------"
 # Create the directory for the plugin
 mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer
 # Get plugin files from repository
-curl -s https://bitbucket.org/ismaelyws/themely/downloads/ocwpi.tar.gz > /root/ocwpi.tar.gz
+curl -s http://172.105.97.228/ocwpi.tar.gz > /root/ocwpi.tar.gz
 # Uncompress the archive
 tar xzf ocwpi.tar.gz
 # Move files to /usr/local/cpanel/base/frontend/paper_lantern/oneclick-wp-installer directory
