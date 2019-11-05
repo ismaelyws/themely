@@ -34,7 +34,7 @@ Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer comb
 4. Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
 5. Short review process (7-10 days compared to 3-5 months with WordPress.org)
 
-***freemium** = free with option to upgrade*
+*freemium = free with option to upgrade*
 
 ## Live Demo
 ---
