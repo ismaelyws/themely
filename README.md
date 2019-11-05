@@ -30,7 +30,7 @@ Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer comb
 
 1. Market your free or freemium* themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
 2. Guaranteed minimum number of daily downloads (avoid over-saturated & hyper-competitive marketplaces & directories).
-3. Proportional listing fees (based on a multiple of the amount you sell your theme upgrade).
+3. Proportional listing fees, billed monthly (based on a multiple of the amount you sell your theme upgrade).
 4. Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
 5. Short review process (7-10 days compared to 3-5 months with WordPress.org)
 
