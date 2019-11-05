@@ -83,12 +83,14 @@ To **uninstall** the plugin login to your server as root and run the following c
 ## Get Help/Support
 ---
 
-Hi! My name is Hans Desjarlais and I'm the creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with our plugin or service or to request new features; I'm here to listen.
+Hi! My name is Hans Desjarlais and I'm the founder & creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with my plugin/service or to request new features; I'm here to listen.
 
-Here's how you can reach me:
+**Here's how you can reach me:**
 
 Email: ismaelyws@gmail.com
 
+Twitter Direct Message: https://twitter.com/messages/compose?recipient_id=ismaelyws
+
 Phone: +1 (954) 934-9819 (please only use this in case of emergency)
 
-Twitter DM's: @ismaelyws
+Time Zone: Eastern Standard Time (GMT -4)
