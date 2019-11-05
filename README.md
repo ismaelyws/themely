@@ -20,7 +20,7 @@ Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer comb
 3. Beginner friendly, simple & fast WordPress auto-installer.
 4. Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
 5. Security minded - we set secure default usernames, passwords and database table prefixes.
-6. Clear & intuitive cPanel icon & title (so your users don't have to search or ask your support techs where to install WordPress).
+6. Clear & intuitive cPanel icon & title (so users don't have to search or ask support techs where to install WordPress).
 7. We only approve themes to our directory that meet our strict quality & security standards.
 
 
@@ -78,3 +78,17 @@ To **uninstall** the plugin login to your server as root and run the following c
 `chmod 755 uninstall.sh`
 
 `./uninstall.sh`
+
+
+## Get Help/Support
+---
+
+Hi! My name is Hans Desjarlais and I'm the creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with our plugin or service or to request new features; I'm here to listen.
+
+Here's how you can reach me:
+
+Email: ismaelyws@gmail.com
+
+Phone: +1 (954) 934-9819 (please only use this in case of emergency)
+
+Twitter DM's: @ismaelyws
