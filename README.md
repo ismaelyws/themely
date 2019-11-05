@@ -16,19 +16,22 @@ Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer comb
 ---
 
 1. Earn monthly recurring revenue from the listing and sales of WordPress themes.
-2. Offset your cPanel license fees (due to recent increases).
+2. Offset your cPanel license fee increases (due to recent changes).
 3. Beginner friendly, simple & fast WordPress auto-installer.
 4. Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
 5. Security minded - we set secure default usernames, passwords and database table prefixes.
+6. Clear & intuitive cPanel icon & title (so your users don't have to search or ask your support techs where to install WordPress).
+7. We only approve themes to our directory which meet our strict quality & security standards.
 
 
 ## For WordPress Theme Developers
 ---
 
-1. Distribute your themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
+1. Market your themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
 2. Guaranteed minimum number of daily downloads (avoid over-saturated & hyper-competitive marketplaces & directories).
 3. Proportional listing fees (based on a multiple of the amount you sell your theme upgrade).
 4. Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
+5. Short review process (7-10 days compared to 3-5 months with WordPress.org)
 
 
 
@@ -49,7 +52,7 @@ Once logged in, scroll down to the **Software section** and click **Install Word
 ## System Requirements
 ---
 
-A Linux server running CentOS 6 or 7 with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements
+A Linux server running CentOS 6.5 or later with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements
 
 
 
