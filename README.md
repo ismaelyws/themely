@@ -22,7 +22,7 @@ Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer comb
 5. Security minded - we set secure default usernames, passwords and database table prefixes.
 6. Clear & intuitive cPanel icon & title (so users don't have to search or ask support techs where to install WordPress).
 7. We only approve themes to our directory that meet our strict quality & security standards.
-8. Latest, stable WordPress version installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
+8. Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
 
 
 ## For WordPress Theme Developers
@@ -34,7 +34,7 @@ Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer comb
 4. Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
 5. Short review process (7-10 days compared to 3-5 months with WordPress.org)
 
-*freemium = free with option to upgrade*
+***freemium** = free with option to upgrade*
 
 ## Live Demo
 ---
