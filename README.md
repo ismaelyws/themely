@@ -16,12 +16,13 @@ Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer comb
 ---
 
 1. Earn monthly recurring revenue from the listing and sales of WordPress themes.
-2. Offset your cPanel license fee increases (due to recent changes).
+2. Offset your cPanel license fee increases (due to recent price changes).
 3. Beginner friendly, simple & fast WordPress auto-installer.
 4. Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
 5. Security minded - we set secure default usernames, passwords and database table prefixes.
 6. Clear & intuitive cPanel icon & title (so users don't have to search or ask support techs where to install WordPress).
 7. We only approve themes to our directory that meet our strict quality & security standards.
+8. Latest, stable WordPress version installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
 
 
 ## For WordPress Theme Developers
