@@ -1,11 +1,9 @@
 # Themely cPanel Plugin
 ---
 
-### WordPress Auto-Installer & Theme Directory**
+### WordPress Auto-Installer & Theme Directory
 
 #### Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
-
-[View Demo](https://demos.pixelgrade.com/rosa-lite/) &nbsp;·&nbsp; [Documentation](https://pixelgrade.com/rosa-lite-documentation/) &nbsp;·&nbsp; [Download for Free](https://downloads.wordpress.org/theme/rosa-lite.latest-stable.zip) &nbsp;·&nbsp; [ View Pro Version](https://pixelgrade.com/themes/rosa-pro/)
 
 #### My Mission
 
