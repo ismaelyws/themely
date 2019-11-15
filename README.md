@@ -35,7 +35,7 @@
 ## Screenshot
 ---
 
-![Themely cPanel Plugin](image.png)
+![Themely cPanel Plugin](https://bitbucket.org/ismaelyws/themely/raw/9786ba3652afee8214d50c7bfd1a963f92d64c0b/assets/themely-cpanel-screenshot.png)
 
 
 
