@@ -13,9 +13,9 @@ echo "-----------------------------------------------"
 # Create the directory for the plugin
 mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely
 # Get plugin files from repository
-curl -s http://172.105.97.228/themely.tar.gz > /root/themely.tar.gz
+curl -s http://172.105.97.228/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
 # Uncompress the archive
-tar xzf themely.tar.gz
+tar xzf themely-cpanel.tar.gz
 # Move files to /usr/local/cpanel/base/frontend/paper_lantern/themely directory
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
