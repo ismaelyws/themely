@@ -7,6 +7,8 @@
 
 #### My Mission is to help web hosting companies & WordPress theme developers make more money.
 
+![Themely cPanel Plugin](https://bitbucket.org/ismaelyws/themely/raw/48cc88dc37cc059c07b384278aef5a99fcff7201/assets/themely-cpanel-screenshot.png)
+
 
 ## For Web Hosting Companies
 ---
@@ -31,12 +33,6 @@
 - Short review process (7-10 days compared to 3-5 months with WordPress.org)
 
 *freemium = free with option to upgrade*
-
-## Screenshot
----
-
-![Themely cPanel Plugin](https://bitbucket.org/ismaelyws/themely/raw/9786ba3652afee8214d50c7bfd1a963f92d64c0b/assets/themely-cpanel-screenshot.png)
-
 
 
 ## Live Demo
