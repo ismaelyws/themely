@@ -58,7 +58,7 @@ A Linux server running CentOS 6.5 or later with a valid cPanel/WHM license. For 
 
 To **install** the plugin login to your server as root and run the following commands:
 
-`wget -N https://bitbucket.org/ismaelyws/themely/raw/efeaffe91d4beca313baa69f29aa0ce9a178503c/install.sh`
+`wget -N https://bitbucket.org/ismaelyws/themely/raw/a142d3dc3d9999e4d092fdb4fecdebe39427f473/install.sh`
 
 `chmod 755 install.sh`
 
@@ -70,7 +70,7 @@ To **install** the plugin login to your server as root and run the following com
 
 To **uninstall** the plugin login to your server as root and run the following commands:
 
-`wget -N https://bitbucket.org/ismaelyws/themely/raw/efeaffe91d4beca313baa69f29aa0ce9a178503c/uninstall.sh`
+`wget -N https://bitbucket.org/ismaelyws/themely/raw/a142d3dc3d9999e4d092fdb4fecdebe39427f473/uninstall.sh`
 
 `chmod 755 uninstall.sh`
 
