@@ -32,6 +32,13 @@
 
 *freemium = free with option to upgrade*
 
+## Screenshot
+---
+
+![Themely cPanel Plugin](image.png)
+
+
+
 ## Live Demo
 ---
 
