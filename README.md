@@ -5,7 +5,7 @@
 
 #### Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
-#### My Mission is to help web hosting companies & WordPress theme developers make more money.
+#### My mission is to help web hosting companies & WordPress theme developers make more money.
 
 
 ## For Web Hosting Companies
