@@ -36,7 +36,7 @@
 
 ## Live Demo
 
-I've set up a server with a cPanel license for you to test & see how it works.
+I've set up a tiny cloud server with a cPanel license for you to try and test the plugin.
 
 URL: https://li2000-228.members.linode.com/cpanel
 
