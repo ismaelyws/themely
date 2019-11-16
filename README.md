@@ -57,7 +57,7 @@ A Linux server running CentOS 6.5 or later with a valid cPanel/WHM license. For 
 
 To **install** the plugin login to your server as root and run the following commands:
 
-`wget -N https://bitbucket.org/ismaelyws/themely/raw/a142d3dc3d9999e4d092fdb4fecdebe39427f473/install.sh`
+`wget -N https://bitbucket.org/ismaelyws/themely/raw/install.sh`
 
 `chmod 755 install.sh`
 
@@ -68,7 +68,7 @@ To **install** the plugin login to your server as root and run the following com
 
 To **uninstall** the plugin login to your server as root and run the following commands:
 
-`wget -N https://bitbucket.org/ismaelyws/themely/raw/a142d3dc3d9999e4d092fdb4fecdebe39427f473/uninstall.sh`
+`wget -N https://bitbucket.org/ismaelyws/themely/raw/uninstall.sh`
 
 `chmod 755 uninstall.sh`
 
@@ -81,7 +81,7 @@ Hi! My name is Hans Desjarlais and I'm the founder & creator of Themely. Whether
 
 **Here's how you can reach me:**
 
-Email: ismaelyws@gmail.com
+Email: ismaelyws [at] gmail [dot] com
 
 Twitter Direct Message: https://twitter.com/messages/compose?recipient_id=ismaelyws
 
