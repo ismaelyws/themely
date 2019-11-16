@@ -1,5 +1,4 @@
 # Themely cPanel Plugin
----
 
 ### WordPress Auto-Installer & Theme Directory
 
@@ -9,7 +8,6 @@
 
 
 ## For Web Hosting Companies
----
 
 - Earn monthly recurring revenue from the listing and sales of WordPress themes.
 - Offset your cPanel license fee increases (due to recent price changes).
@@ -22,7 +20,6 @@
 
 
 ## For WordPress Theme Developers
----
 
 - Market your free or freemium* themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
 - Guaranteed minimum number of daily downloads (avoid over-saturated & hyper-competitive marketplaces & directories).
@@ -33,13 +30,11 @@
 *freemium = free with option to upgrade*
 
 ## Screenshot
----
 
 ![Themely cPanel Plugin](https://bitbucket.org/ismaelyws/themely/raw/48cc88dc37cc059c07b384278aef5a99fcff7201/assets/themely-cpanel-screenshot.png)
 
 
 ## Live Demo
----
 
 I've set up a server with a cPanel license for you to test & see how it works.
 
@@ -53,14 +48,12 @@ Once logged in, scroll down to the **Software section** and click **Install Word
 
 
 ## System Requirements
----
 
 A Linux server running CentOS 6.5 or later with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements
 
 
 
 ## Installation Instructions
----
 
 To **install** the plugin login to your server as root and run the following commands:
 
@@ -72,7 +65,6 @@ To **install** the plugin login to your server as root and run the following com
 
 
 ## Removal Instructions
----
 
 To **uninstall** the plugin login to your server as root and run the following commands:
 
@@ -84,7 +76,6 @@ To **uninstall** the plugin login to your server as root and run the following c
 
 
 ## Get Help/Support
----
 
 Hi! My name is Hans Desjarlais and I'm the founder & creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with my plugin/service or to suggest new features; I'm here to listen.
 
