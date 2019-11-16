@@ -23,7 +23,7 @@
 
 - Market your free or freemium* themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
 - Guaranteed minimum number of daily downloads (avoid over-saturated & hyper-competitive marketplaces & directories).
-- Proportional listing fees, billed monthly (based on a multiple of the amount you sell your theme upgrade).
+- Proportional listing fees, billed monthly (based on a multiple of the amount you sell a theme upgrade).
 - Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
 - Short review process (7-10 days compared to 3-5 months with WordPress.org)
 
@@ -49,7 +49,7 @@ Once logged in, scroll down to the **Software section** and click **Install Word
 
 ## System Requirements
 
-A Linux server running CentOS 6.5 or later with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements
+A Linux server running CentOS 6 or 7 with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements
 
 
 
