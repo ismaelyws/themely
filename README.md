@@ -38,11 +38,11 @@
 
 I've set up a tiny cloud server with a cPanel license for you to try and test the plugin.
 
-URL: https://li2000-228.members.linode.com/cpanel
+URL: http://www.wpthemespot.com/cpanel
 
-Username: `userdemo`
+Username: `wpthemespot`
 
-Password: `userdemo2019!`
+Password: `4mIAucrSDx9zNUUFOh`
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
