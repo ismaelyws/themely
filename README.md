@@ -31,14 +31,14 @@
 
 ## Screenshot
 
-![Themely cPanel Plugin Screenshot](https://github.com/ismaelyws/themely/blob/master/assets/themely-cpanel-screenshot.png)
+![Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot.png)
 
 
 ## Live Demo
 
 I've set up a tiny cloud server with a cPanel license for you to try and test the plugin.
 
-URL: http://www.wpthemespot.com/cpanel
+URL: https://li2000-228.members.linode.com/cpanel
 
 Username: `wpthemespot`
 
