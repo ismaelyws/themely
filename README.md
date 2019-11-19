@@ -46,6 +46,8 @@ Password: `4mIAucrSDx9zNUUFOh`
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
+**Important Notice**: The Themely cPanel plugin is currently in public BETA and still under development, you will notice that the directory only contains 12 themes at the moment. I am currently in the process of adding themes to the directory and it will grow in number.
+
 
 ## System Requirements
 
