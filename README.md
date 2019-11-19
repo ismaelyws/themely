@@ -9,7 +9,7 @@
 
 ## For Web Hosting Companies
 
-- Earn monthly recurring revenue from the listing and sales of WordPress themes.
+- Earn monthly recurring revenue* from the listing and sales of WordPress themes.
 - Offset your cPanel license fee increases (due to recent price changes).
 - Beginner friendly, simple & fast WordPress auto-installer.
 - Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
@@ -17,6 +17,8 @@
 - Clear & intuitive cPanel icon & title (so users don't have to search or ask support techs where to install WordPress).
 - We only approve themes to our directory that meet our strict quality & security standards.
 - Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
+
+**Revenue**: Fixed monthly earnings (TBD) per active cPanel account.
 
 
 ## For WordPress Theme Developers
