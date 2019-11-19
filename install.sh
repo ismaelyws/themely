@@ -9,7 +9,7 @@ echo "-----------------------------------------------"
 # Create the directory for the plugin
 mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely
 # Get plugin files from repository
-curl -s https://www.themely.com/download/themely-cpanel-plugin/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
+curl -s http://www.themely.com/download/themely-cpanel-plugin/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
 # Uncompress the archive
 tar xzf themely-cpanel.tar.gz
 # Move files to /usr/local/cpanel/base/frontend/paper_lantern/themely directory
