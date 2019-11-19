@@ -31,7 +31,7 @@
 
 ## Screenshot
 
-![Themely cPanel Plugin](https://bitbucket.org/ismaelyws/themely/raw/48cc88dc37cc059c07b384278aef5a99fcff7201/assets/themely-cpanel-screenshot.png)
+![Themely cPanel Plugin Screenshot](https://github.com/ismaelyws/themely/blob/master/assets/themely-cpanel-screenshot.png)
 
 
 ## Live Demo
