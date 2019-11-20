@@ -85,10 +85,12 @@ Hi! My name is Hans Desjarlais and I'm the founder & creator of Themely. Whether
 
 **Here's how you can reach me:**
 
+Submit support ticket: https://github.com/ismaelyws/themely/issues (click on the green **New Issue** button)
+
 Email: ismaelyws [at] gmail [dot] com
 
 Twitter Direct Message: https://twitter.com/messages/compose?recipient_id=ismaelyws
 
-Phone: +1 (954) 934-9819 (please only use this in case of emergency)
+Phone: +1 (514) 883-0132 (please only use this in case of emergency)
 
 Time Zone: Eastern Standard Time (GMT -4)
