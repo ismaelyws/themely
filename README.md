@@ -17,7 +17,7 @@
 - We only approve themes to our directory that meet our strict quality & security standards.
 - Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
 
-**Revenue**: A fixed amount (TBD) per active cPanel account.
+***Revenue**: A fixed amount (TBD) per active cPanel account.*
 
 
 ## For WordPress Theme Developers
