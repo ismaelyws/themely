@@ -14,7 +14,8 @@
 - Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
 - Security minded - we set secure default usernames, passwords and database table prefixes.
 - Clear & intuitive cPanel icon & title (so users don't have to search or ask support techs where to install WordPress).
-- We only approve themes to our directory that meet our strict quality & security standards.
+- Offer your clients hundreds of free, beautiful & secure WordPress themes from talented developers around the world.
+- We only approve themes to our directory that successfully pass our strict quality & security review process.
 - Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
 
 ***Revenue**: A fixed amount (TBD) per active cPanel account.*
