@@ -23,7 +23,7 @@
 
 ## For WordPress Theme Developers
 
-- Market your free or freemium* themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
+- Market your freemium* themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
 - Guaranteed minimum number of daily downloads (avoid over-saturated & hyper-competitive marketplaces & directories).
 - Proportional listing fees, billed monthly (based on a multiple of the amount you sell a theme upgrade).
 - Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
