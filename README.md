@@ -17,6 +17,8 @@
 - Offer your clients hundreds of free, beautiful & secure WordPress themes from talented developers around the world.
 - We only approve themes to our directory that successfully pass our manual quality & security review process (we adhere to the official WordPress.org theme security guidelines).
 - Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
+- WP admin single sign-on - after installation users can automatically sign into their Admin Dashboard.
+- Integrated with WHMCS (automatically installs WordPress after cPanel account creation) - Download hook function file 
 
 ***Revenue**: A fixed amount (TBD) per active cPanel account.*
 
@@ -44,7 +46,7 @@ URL: https://li2000-228.members.linode.com/cpanel
 
 Username: `wpthemespot`
 
-Password: `4mIAucrSDx9zNUUFOh`
+Password: `Y3nRKLutOIyqXxohx9`
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
