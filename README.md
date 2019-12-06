@@ -22,6 +22,7 @@
 - Integration with cPanel WordPress Manager** (automatically detects & allows users to manage existing WordPress sites on their accounts)
 
 ***Revenue**: A fixed amount (TBD) per active cPanel account.*
+
 ***cPanel WordPress Manager**: The RPM-based WordPress cPAddon in WHM must be installed to access this feature (WHM >> Home >> cPanel >> Install cPAddons Site Software).*
 
 ## For WordPress Theme Developers
