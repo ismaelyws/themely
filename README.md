@@ -19,9 +19,10 @@
 - Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
 - WP admin single sign-on - after installation users can automatically sign into their Admin Dashboard.
 - Integration with WHMCS (automatically install WordPress after cPanel account creation) - download hook function file https://github.com/ismaelyws/themely-whmcs-hook
+- Integration with cPanel WordPress Manager** (automatically detects & allows users to manage existing WordPress sites on their accounts)
 
 ***Revenue**: A fixed amount (TBD) per active cPanel account.*
-
+***cPanel WordPress Manager**: The RPM-based WordPress cPAddon in WHM must be installed to access this feature (WHM >> Home >> cPanel >> Install cPAddons Site Software).*
 
 ## For WordPress Theme Developers
 
