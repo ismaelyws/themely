@@ -21,9 +21,9 @@
 - Integration with WHMCS (automatically install WordPress after cPanel account creation) - download hook function file https://github.com/ismaelyws/themely-whmcs-hook
 - Integration with cPanel WordPress Manager** (automatically detects & allows users to manage existing WordPress sites on their accounts)
 
-***Revenue**: A fixed amount (TBD) per active cPanel account.*
+*Revenue: A fixed amount (TBD) per active cPanel account.*
 
-***cPanel WordPress Manager**: The RPM-based WordPress cPAddon in WHM must be installed to access this feature (WHM >> Home >> cPanel >> Install cPAddons Site Software).*
+*cPanel WordPress Manager: The RPM-based WordPress cPAddon in WHM must be installed to access this feature (WHM >> Home >> cPanel >> Install cPAddons Site Software).*
 
 ## For WordPress Theme Developers
 
@@ -33,7 +33,7 @@
 - Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
 - Short review process (less than 7 days compared to 10-14 days with ThemeForest.net & 3-5 months with WordPress.org)
 
-*freemium = free with option to upgrade*
+*freemium: free with option to upgrade*
 
 ## Screenshot
 

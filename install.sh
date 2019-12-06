@@ -11,7 +11,7 @@ mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely
 # Get plugin files from repository
 curl -s http://172.105.14.14/files/cpanel/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
 # Uncompress the archive
-tar xzf themely-cpanel.tar.gz
+tar -zxvf themely-cpanel.tar.gz
 # Move files to /usr/local/cpanel/base/frontend/paper_lantern/themely directory
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
@@ -29,5 +29,5 @@ mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
 rm themely-cpanel.tar.gz
 rm install.sh
 echo "------------------------------------"
-echo "Installation successfully completed!"
+echo "Themely successfully installed!"
 echo "------------------------------------"

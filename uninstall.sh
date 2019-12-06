@@ -13,5 +13,5 @@ rm -rf /usr/local/cpanel/base/frontend/paper_lantern/themely
 # Remove the uninstall.sh file from root directory
 rm uninstall.sh
 echo "----------------------------"
-echo "Plugin successfully removed!"
+echo "Themely successfully removed!"
 echo "----------------------------"
