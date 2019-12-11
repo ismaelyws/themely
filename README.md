@@ -31,9 +31,11 @@
 - Guaranteed minimum number of daily downloads (avoid over-saturated & hyper-competitive marketplaces & directories).
 - Proportional listing fees, billed monthly (based on a multiple of the amount you sell a theme upgrade).
 - Cancel anytime, no contract, no cancellation fees (listing fees will be prorated by day, for example, if listing fees costs $200 a month but you cancel half way trough, we'll only charge you $100).
-- Short review process (less than 7 days compared to 10-14 days with ThemeForest.net & 3-5 months with WordPress.org)
+- Short review process** (less than 7 days compared to 10-14 days with ThemeForest.net & 3-5 months with WordPress.org)
 
-***freemium**: free with option to upgrade*
+***Freemium**: free with option to upgrade*
+
+***Review process**: themes must successfully pass a manual quality & security review before being accepted into the directory. I only accept themes that are visually appealing, easy-to-use and secure.*
 
 ## Screenshot
 
