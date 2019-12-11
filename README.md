@@ -35,7 +35,7 @@
 
 ***Freemium**: free with option to upgrade*
 
-***Review process**: themes must successfully pass a manual quality & security review before being accepted into the directory. I only accept themes that are visually appealing, easy-to-use and secure.*
+***Review process**: themes must successfully pass a manual quality & security review before being accepted into the directory. Only visually appealing, easy-to-use and secure themes are accepted.*
 
 ## Screenshot
 
