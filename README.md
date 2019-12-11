@@ -16,7 +16,7 @@
 - Clear & intuitive cPanel icon & title (so users don't have to search or ask support techs where to install WordPress).
 - Offer your clients hundreds of free, beautiful & secure WordPress themes from talented developers around the world.
 - We only approve themes to our directory that successfully pass our manual quality & security review process (we adhere to the official WordPress.org theme security guidelines).
-- Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any of the core files).
+- Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any core files).
 - WP admin single sign-on - after installation users can automatically sign into their Admin Dashboard.
 - Integration with WHMCS (automatically install WordPress after account creation) - download hook file https://github.com/ismaelyws/themely-whmcs-hook
 - Integration with cPanel WordPress Manager** (automatically detects & allows management of existing WordPress sites on an account)
