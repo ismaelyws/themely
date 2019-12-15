@@ -1,10 +1,10 @@
-# Themely cPanel Plugin
+# Themely WordPress Auto-Installer & Theme Directory
 
-### WordPress Auto-Installer & Theme Directory
-
-#### Themely cPanel plugin is an easy-to-use, one-click WordPress auto-installer combined with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
+#### Themely is a cPanel plugin which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
 #### My mission is to help web hosting companies & WordPress theme developers make more money.
+
+#### *I'm currently looking for hosting companies to beta test Themely and get valuable feedback. If you're interested in working with me please [contact me](#get-helpsupport).*
 
 
 ## For Web Hosting Companies
