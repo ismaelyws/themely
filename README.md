@@ -4,7 +4,7 @@
 
 #### My mission is to help web hosting companies & WordPress theme developers make more money.
 
-***I'm currently looking for hosting companies to beta test Themely and get valuable feedback. If you're interested in working with me please [contact me](#get-helpsupport).***
+***I'm currently looking for hosting companies to beta test Themely and get valuable feedback. If you're interested in working with me please [get in touch](#get-helpsupport).***
 
 
 ## For Web Hosting Companies
