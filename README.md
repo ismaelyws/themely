@@ -9,12 +9,12 @@
 
 ## For Web Hosting Companies
 
-- Earn monthly recurring revenue* from the listing and sales of WordPress themes.
+- Earn monthly recurring revenue* (based on the number of active accounts)
+- Offer your clients hundreds of free, beautiful & secure WordPress themes from talented developers around the world.
 - Beginner friendly, simple & fast WordPress auto-installer.
 - Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
 - Security minded - we set secure default usernames, passwords and database table prefixes.
 - Clear & intuitive cPanel icon & title (so users don't have to search or ask support techs where to install WordPress).
-- Offer your clients hundreds of free, beautiful & secure WordPress themes from talented developers around the world.
 - We only approve themes to our directory that successfully pass our manual quality & security review process (we adhere to the official WordPress.org theme security guidelines).
 - Only the latest, stable version of WordPress installed (the plugin downloads the latest version directly from the WordPress.org repository and doesn't modify any core files).
 - WP admin single sign-on - after installation users can automatically sign into their Admin Dashboard.
