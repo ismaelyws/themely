@@ -9,7 +9,7 @@
 
 ## For Web Hosting Companies
 
-- Earn monthly recurring revenue* (based on the number of active accounts)
+- Earn monthly recurring revenue* (based on number of active accounts)
 - Offer your clients hundreds of free, beautiful & secure WordPress themes from talented developers around the world.
 - Beginner friendly, simple & fast WordPress auto-installer.
 - Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
