@@ -1,6 +1,6 @@
 # Themely WordPress Auto-Installer & Theme Directory
 
-#### Themely is a cPanel plugin which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
+#### Themely is a cPanel addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
 #### My mission is to help web hosting companies & WordPress theme developers make more money.
 
@@ -54,7 +54,7 @@ Password: `Ty6LI87tLSDC9EnFvu`
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
-**Important Notice**: The Themely cPanel plugin is currently in public BETA and still under development, you will notice that the directory only contains 12 themes at the moment. I am currently in the process of adding themes to the directory and it will grow in number.
+**Important Notice**: The Themely cPanel plugin is currently in public BETA and still under development, you will notice the directory only contains 12 themes at the moment. I'm currently in the process of adding themes and it will grow in number.
 
 
 ## System Requirements
@@ -91,12 +91,12 @@ Hi! My name is Hans Desjarlais and I'm the founder & creator of Themely. Whether
 
 **Here's how you can reach me:**
 
-Submit support ticket: https://github.com/ismaelyws/themely/issues (click on the green **New Issue** button)
+[Create new issue on Github](https://github.com/ismaelyws/themely/issues) (click the green **New Issue** button)
 
-Email: ismaelyws [at] gmail [dot] com
+[Chat with me on Discord](https://discord.gg/f3m2Pmp)
 
-Twitter Direct Message: https://twitter.com/messages/compose?recipient_id=ismaelyws
+[Send me a direct message on Twitter](https://twitter.com/messages/compose?recipient_id=ismaelyws)
 
-Phone: +1 (514) 883-0132 (please only use this in case of emergency)
+Call or text me on Whatsapp `+1 (514) 883-0132`
 
 Time Zone: Eastern Standard Time (GMT -4)
