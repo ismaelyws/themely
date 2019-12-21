@@ -89,7 +89,7 @@ To **uninstall** the plugin login to your server as root and run the following c
 
 ## Get Help/Support
 
-My name is Hans Desjarlais and I'm the founder & creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with my plugin/service or to suggest new features; I'm here to listen.
+My name is [Hans Desjarlais](https://twitter.com/ismaelyws) and I'm the founder & creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with my plugin/service or to suggest new features; I'm here to listen.
 
 **Here's how you can reach me:**
 
@@ -102,3 +102,7 @@ My name is Hans Desjarlais and I'm the founder & creator of Themely. Whether you
 Call or text me on Whatsapp `+1 (514) 883-0132`
 
 Time Zone: Eastern Standard Time (GMT -4)
+
+Spoken & written languages: English, Français, Español (un poquito)
+
+Office Location: Montreal, Canada
