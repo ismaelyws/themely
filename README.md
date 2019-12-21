@@ -10,7 +10,7 @@
 ## For Web Hosting Companies
 
 - Earn monthly recurring revenue* (based on number of active accounts)
-- Offer your clients hundreds of free, beautiful & secure WordPress themes from talented developers around the world.
+- Offer your clients high-quality, free & secure WordPress themes from talented developers around the world.
 - Beginner friendly, simple & fast WordPress auto-installer.
 - Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
 - Security minded - we set secure default usernames, passwords and database table prefixes.
@@ -72,6 +72,8 @@ To **install** the plugin login to your server as root and run the following com
 `chmod 755 install.sh`
 
 `./install.sh`
+
+**Important** Add port 3306 to outgoing TCP ports in your firewall settings (*WHM->ConfigServer Firewall->Firewall Configuration->All Outgoing TCP Ports*).
 
 
 ## Removal Instructions
