@@ -28,7 +28,7 @@ mv /root/themely.conf /var/cpanel/apps/
 mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 # Install the plugin
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
-/usr/local/cpanel/bin/register_appconfig /root/themely.conf
+/usr/local/cpanel/bin/register_appconfig /var/cpanel/apps/themely.conf
 # Remove installation files
 rm themely-cpanel.tar.gz
 rm install.sh
