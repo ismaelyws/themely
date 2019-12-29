@@ -32,9 +32,6 @@ mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 # Remove installation files
 rm themely-cpanel.tar.gz
 rm install.sh
-rm themely.conf
 echo "------------------------------------"
-echo "Themely successfully installed!"
-echo "------------------------------------"
-echo "Now that Themely is successfully installed proceed to WHM > Plugins > Themely and enter your license key and authentication token to activate your server."
+echo "Themely successfully installed! Proceed to WHM > Plugins > Themely and enter your license key and authentication token to activate your server."
 echo "------------------------------------"
