@@ -6,10 +6,10 @@ clear
 echo "-------------------------------------------------"
 echo "Removing the Themely cPanel/WHM Plugin"
 echo "-------------------------------------------------"
-# Unregister the plugin
+# Unregister the plugins
 /usr/local/cpanel/scripts/uninstall_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
 /usr/local/cpanel/bin/unregister_appconfig /var/cpanel/apps/themely.conf
-# Remove the plugin folder & files
+# Remove the plugin folders & files
 rm -rf /usr/local/cpanel/base/frontend/paper_lantern/themely
 rm -rf /usr/local/cpanel/whostmgr/docroot/templates/themely
 # Remove the cronjob file
