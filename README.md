@@ -73,7 +73,7 @@ To **install** the plugin login to your server as root and run the following com
 
 `./install.sh`
 
-**Important** Add port 3306 to outgoing TCP ports in your firewall settings (*WHM->ConfigServer Firewall->Firewall Configuration->All Outgoing TCP Ports*).
+**Important**: Add port 3306 to outgoing TCP ports in your firewall settings (*WHM->ConfigServer Firewall->Firewall Configuration->All Outgoing TCP Ports*).
 
 
 ## Removal Instructions

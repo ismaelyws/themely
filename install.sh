@@ -4,15 +4,16 @@
 # AUTHOR: Ishmael 'Hans' Desjarlais <ismaelyws@gmail.com>
 clear
 echo "-----------------------------------------------"
-echo "Installing Themely cPanel Plugin"
+echo "Installing Themely cPanel/WHM Plugin"
 echo "-----------------------------------------------"
-# Create the directory for the plugin
+# Create the directories
 mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely
-# Get plugin files from repository
+mkdir -p /usr/local/cpanel/whostmgr/docroot/templates/themely
+# Get archive file from repository
 curl -s https://themely-cpanel.s3.amazonaws.com/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
 # Uncompress the archive
 tar -zxvf themely-cpanel.tar.gz
-# Move files to /usr/local/cpanel/base/frontend/paper_lantern/themely directory
+# Move files to directory
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/classes.php /usr/local/cpanel/base/frontend/paper_lantern/themely
@@ -23,11 +24,17 @@ mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themel
 mv /root/CHANGELOG.md /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
-# Install the plugin (which also places the png image in the proper location)
+mv /root/themely.conf /var/cpanel/apps/
+mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
+# Install the plugin
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
-# Remove install.sh and themely-cpanel.tar.gz files from root directory
+/usr/local/cpanel/bin/register_appconfig /root/themely.conf
+# Remove installation files
 rm themely-cpanel.tar.gz
 rm install.sh
+rm themely.conf
 echo "------------------------------------"
 echo "Themely successfully installed!"
+echo "------------------------------------"
+echo "Now that Themely is successfully installed proceed to WHM > Plugins > Themely and enter your license key and authentication token to activate your server."
 echo "------------------------------------"
