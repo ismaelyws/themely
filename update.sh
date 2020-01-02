@@ -20,7 +20,6 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	mv /root/style.css /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/CHANGELOG.md /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
