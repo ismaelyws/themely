@@ -1,6 +1,6 @@
 #!/bin/sh
 # SCRIPT: install.sh
-# PURPOSE: Install the Themely plugin into cPanel
+# PURPOSE: Install the Themely cPanel/WHM plugin
 # AUTHOR: Ishmael 'Hans' Desjarlais <ismaelyws@gmail.com>
 clear
 echo "-----------------------------------------------"
