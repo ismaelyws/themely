@@ -7,8 +7,7 @@ echo "-----------------------------------------------"
 echo "Updating Themely cPanel/WHM Plugin"
 echo "-----------------------------------------------"
 # Check if directories exist
-if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; 
-then
+if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
 	# Get archive file from repository & place in root directory
 	curl -s https://themely-cpanel.s3.amazonaws.com/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
 	# Uncompress archive file
@@ -31,4 +30,9 @@ then
 	echo "------------------------------------"
 	echo "Themely successfully updated!"
 	echo "------------------------------------"
+fi
+if [ ! -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ ! -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
+	echo "-----------------------------------------------"
+	echo "Themely plugin not found, make sure you have successfully installed Themely before updating."
+	echo "-----------------------------------------------"
 fi
