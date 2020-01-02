@@ -67,16 +67,16 @@ A Linux server running CentOS 6 or 7 with a valid cPanel/WHM license. For inform
 
 To **install** the plugin follow the steps below:
 
-####Step 1####
+###Step 1
 
 Generate a license key and authentication token.
 
-####Step 2####
+###Step 2
 
 - Log into WHM and generate an API token (WHM > Development > Manage API Tokens). Name it `Themely` and assign the following priviledges `list-accts`, `create-user-session` & `manage-api-tokens`.
 - Add port 3306 to outgoing TCP ports in your firewall settings (WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports).
 
-####Step 3####
+###Step 3
 
 In the terminal run the following commands as root:
 
@@ -86,7 +86,7 @@ In the terminal run the following commands as root:
 
 `./install.sh`
 
-####Step 4####
+###Step 4
 
 Navigate to WHM > Plugins > Themely and enter your license key, authentication token and API token, then press the green button to activate your server.
 
