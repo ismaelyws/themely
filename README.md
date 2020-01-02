@@ -87,6 +87,17 @@ To **uninstall** the plugin login to your server as root and run the following c
 `./uninstall.sh`
 
 
+## Update Instructions
+
+To **update the plugin to the latest version** login to your server as root and run the following commands:
+
+`wget -N https://raw.githubusercontent.com/ismaelyws/themely/master/update.sh`
+
+`chmod 755 update.sh`
+
+`./update.sh`
+
+
 ## Get Help/Support
 
 My name is [Hans Desjarlais](https://twitter.com/ismaelyws) and I'm the founder & creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with my plugin/service or to suggest new features; I'm here to listen.
