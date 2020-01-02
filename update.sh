@@ -37,3 +37,4 @@ then
 	echo "Themely plugin not found, make sure you have successfully installed Themely before updating."
 	echo "-----------------------------------------------"
 fi
+fi
