@@ -31,8 +31,9 @@ then
 	echo "------------------------------------"
 	echo "Themely successfully updated!"
 	echo "------------------------------------"
-else
-echo "-----------------------------------------------"
-echo "Themely plugin not found, make sure you have successfully installed Themely before updating."
-echo "-----------------------------------------------"
+else if [ ! -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ ! -d /usr/local/cpanel/whostmgr/docroot/templates/themely ];
+then
+	echo "-----------------------------------------------"
+	echo "Themely plugin not found, make sure you have successfully installed Themely before updating."
+	echo "-----------------------------------------------"
 fi
