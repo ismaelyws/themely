@@ -9,9 +9,9 @@ echo "-----------------------------------------------"
 # Check if directories exist
 if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
 	# Get archive file from repository & place in root directory
-	curl -s https://themely-cpanel.s3.amazonaws.com/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
+	curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
 	# Uncompress archive file
-	tar -zxvf themely-cpanel.tar.gz
+	tar -zxvf archive.tgz
 	# Move files to their respective directories
 	mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
@@ -25,7 +25,7 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
 	mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 	# Remove installation files
-	rm themely-cpanel.tar.gz
+	rm archive.tgz
 	rm update.sh
 	echo "------------------------------------"
 	echo "Themely successfully updated!"

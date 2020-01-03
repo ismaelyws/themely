@@ -22,9 +22,9 @@ if [ ! -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
 	chmod 755 /usr/local/cpanel/whostmgr/docroot/templates/themely
 fi
 # Get archive file from repository & place in root directory
-curl -s https://themely-cpanel.s3.amazonaws.com/themely-cpanel.tar.gz > /root/themely-cpanel.tar.gz
+curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
 # Uncompress archive file
-tar -zxvf themely-cpanel.tar.gz
+tar -zxvf archive.tgz
 # Move files to their respective directories
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
@@ -42,8 +42,8 @@ mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 # Register WHM plugin with AppConfig
 /usr/local/cpanel/bin/register_appconfig /usr/local/cpanel/whostmgr/docroot/templates/themely/themely.conf
 # Remove installation files
-rm themely-cpanel.tar.gz
+rm archive.tgz
 rm install.sh
 echo "------------------------------------"
-echo "Themely successfully installed! Proceed to WHM > Plugins > Themely and enter your license key and authentication token to activate your server."
+echo "Themely successfully installed! Proceed to WHM > Plugins > Themely and enter your license key, authentication token & API token to activate your server."
 echo "------------------------------------"
