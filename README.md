@@ -75,7 +75,7 @@ Generate a license key and authentication token.
 
 Log into WHM and,
 
-- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following priviledges `list-accts`, `create-user-session` & `manage-api-tokens`. Themely doesn't require full access, just those 3 priviledges is enough.
+- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following priviledges `list-accts`, `create-user-session` & `manage-api-tokens` (Themely doesn't require full access, just those 3 priviledges is enough).
 - Add port 3306 to outgoing TCP ports in your firewall settings (*WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports*).
 
 ### Step 3
@@ -90,7 +90,7 @@ In the terminal run the following commands as root:
 
 ### Step 4
 
-Navigate to WHM > Plugins > Themely and enter your license key, authentication token and API token, then press the green button to activate your server.
+Navigate to *WHM > Plugins > Themely* and enter your license key, authentication token and API token, then press the green button to activate your server.
 
 
 ## Removal Instructions
