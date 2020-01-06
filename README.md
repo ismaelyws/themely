@@ -2,7 +2,7 @@
 
 #### Themely is a cPanel addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
-#### My mission is to help web hosting companies & WordPress theme developers generate extra revenue.
+#### My mission is to help web hosting companies & WordPress theme developers generate additional revenue.
 
 
 ## For Web Hosting Companies
