@@ -19,7 +19,7 @@
 - Integration with WHMCS (automatically install WordPress after account creation) - download hook file https://github.com/ismaelyws/themely-whmcs-hook
 - Integration with cPanel WordPress Manager** (automatically detects & allows management of existing WordPress sites on an account)
 
-***Revenue**: A fixed amount (TBD) per active cPanel account.*
+***Revenue**: US$0.05 (5 cents) per active cPanel account per month.*
 
 ***cPanel WordPress Manager**: The RPM-based WordPress cPAddon in WHM must be installed to access this feature (WHM >> Home >> cPanel >> Install cPAddons Site Software).*
 
