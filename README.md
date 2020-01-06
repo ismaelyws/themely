@@ -2,9 +2,7 @@
 
 #### Themely is a cPanel addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
-#### My mission is to help web hosting companies & WordPress theme developers make more money.
-
-***I'm currently looking for hosting companies to beta test Themely and get valuable feedback. If you're interested please [contact me](#get-helpsupport).***
+#### My mission is to help web hosting companies & WordPress theme developers generate extra revenue.
 
 
 ## For Web Hosting Companies
@@ -75,6 +73,7 @@ To **install** the plugin follow the steps below:
 
 Log into WHM and,
 
+- Make sure IonCube Loader is enabled (*WHM > Server Configuration > Tweak Settings > PHP > cPanel PHP Loader*).
 - Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privileges `list-accts`, `create-user-session` & `manage-api-tokens` (Themely doesn't require full access, just those 3 privileges is enough).
 - Add port 3306 to outgoing TCP ports in your firewall settings (*WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports*).
 
