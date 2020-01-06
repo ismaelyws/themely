@@ -48,7 +48,7 @@ URL: https://li2000-228.members.linode.com/cpanel
 
 Username: `wpthemespot`
 
-Password: `Ty6LI87tLSDC9EnFvu`
+Password: *Pleae [contact me](#get-helpsupport) so I can generate a secure password for you*.
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
@@ -73,7 +73,7 @@ To **install** the plugin follow the steps below:
 
 Log into WHM and,
 
-- Make sure IonCube Loader is enabled (*WHM > Server Configuration > Tweak Settings > PHP > cPanel PHP Loader*).
+- Make sure ionCube Loader is enabled (*WHM > Server Configuration > Tweak Settings > PHP > cPanel PHP Loader*).
 - Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privileges `list-accts`, `create-user-session` & `manage-api-tokens` (Themely doesn't require full access, just those 3 privileges is enough).
 - Add port 3306 to outgoing TCP ports in your firewall settings (*WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports*).
 
