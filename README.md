@@ -69,7 +69,7 @@ To **install** the plugin follow the steps below:
 
 ### Step 1
 
-<a href="https://directory.themely.com/keygen/api/licenses/generate/" target="_blank">Generate a license key and authentication token</a>
+[Generate a license key and authentication token](https://directory.themely.com/keygen/api/licenses/generate/) (right click and open in new tab)
 
 ### Step 2
 
