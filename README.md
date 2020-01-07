@@ -23,6 +23,7 @@
 
 ***cPanel WordPress Manager**: The RPM-based WordPress cPAddon in WHM must be installed to access this feature (WHM >> Home >> cPanel >> Install cPAddons Site Software).*
 
+
 ## For WordPress Theme Developers
 
 - Market your freemium* themes directly to your target audience (bypass Google, WordPress.org, ThemeForest & Mojo Marketplace).
@@ -35,12 +36,29 @@
 
 ***Review process**: themes must successfully pass a manual quality & security review before being accepted into the directory. Only visually appealing, easy-to-use and secure themes are accepted.*
 
+
 ## Screenshots
 
-![Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot.png)
+![Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot-before.png)
+
+![Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot-after.png)
 
 ![Themely WHM Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-whm-screenshot.png)
 
+
+## Live Demo
+
+I've set up a tiny cloud server with a cPanel license for you to try and test the plugin.
+
+URL: https://li2000-228.members.linode.com/cpanel
+
+Username: `wpthemespot`
+
+Password: *Please [contact me](#get-helpsupport) so I can generate a secure password for you*.
+
+Once logged in, scroll down to the **Software section** and click **Install WordPress**.
+
+**Important Notice**: You will notice the directory only contains 21 themes at the moment. I'm currently in the process of adding themes and it will gradually grow in number.
 
 ## System Requirements
 
