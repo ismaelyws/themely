@@ -37,9 +37,9 @@
 
 ## Screenshots
 
-[Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot.png)
+![Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot.png)
 
-[Themely WHM Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-whm-screenshot.png)
+![Themely WHM Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-whm-screenshot.png)
 
 
 ## System Requirements
