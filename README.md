@@ -35,30 +35,16 @@
 
 ***Review process**: themes must successfully pass a manual quality & security review before being accepted into the directory. Only visually appealing, easy-to-use and secure themes are accepted.*
 
-## Screenshot
+## Screenshots
 
-![Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot.png)
+[Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-cpanel-screenshot.png)
 
-
-## Live Demo
-
-I've set up a tiny cloud server with a cPanel license for you to try and test the plugin.
-
-URL: https://li2000-228.members.linode.com/cpanel
-
-Username: `wpthemespot`
-
-Password: *Please [contact me](#get-helpsupport) so I can generate a secure password for you*.
-
-Once logged in, scroll down to the **Software section** and click **Install WordPress**.
-
-**Important Notice**: You will notice the directory only contains 21 themes at the moment. I'm currently in the process of adding themes and it will gradually grow in number.
+[Themely WHM Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-whm-screenshot.png)
 
 
 ## System Requirements
 
 A Linux server running CentOS 6 or 7 with a valid cPanel/WHM license. For information on cPanel/WHM system requirements visit https://documentation.cpanel.net/display/68Docs/Installation+Guide+-+System+Requirements
-
 
 
 ## Installation Instructions
