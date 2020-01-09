@@ -54,7 +54,7 @@ URL: https://li2000-228.members.linode.com/cpanel
 
 Username: `wpthemespot`
 
-Password: *Please [contact me](#get-helpsupport) so I can generate a secure password for you*.
+Password: *Please [contact us](#get-helpsupport) to generate a secure password for you*.
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
