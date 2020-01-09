@@ -1,8 +1,8 @@
 # Themely WordPress Auto-Installer & Theme Directory
 
-#### Themely is a cPanel addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
+#### Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
 
-#### My mission is to help web hosting companies & WordPress theme developers generate additional revenue.
+#### Our mission is to help web hosting companies & WordPress theme developers generate additional revenue.
 
 
 ## For Web Hosting Companies
@@ -48,7 +48,7 @@
 
 ## Live Demo
 
-I've set up a tiny cloud server with a cPanel license for you to try and test the plugin.
+We've set up a tiny cloud server with a cPanel license for you to try and test the plugin.
 
 URL: https://li2000-228.members.linode.com/cpanel
 
@@ -58,7 +58,7 @@ Password: *Please [contact me](#get-helpsupport) so I can generate a secure pass
 
 Once logged in, scroll down to the **Software section** and click **Install WordPress**.
 
-**Important Notice**: You will notice the directory only contains 21 themes at the moment. I'm currently in the process of adding themes and it will gradually grow in number.
+**Important Notice**: You will notice the directory only contains 21 themes at the moment. We're currently in the process of adding themes and it will gradually grow in number.
 
 ## System Requirements
 
@@ -120,17 +120,17 @@ To **update the plugin to the latest version** login to your server as root and 
 
 ## Get Help/Support
 
-My name is [Hans Desjarlais](https://twitter.com/ismaelyws) and I'm the founder & creator of Themely. Whether you're a hosting company or a theme developer, I'm your primary point of contact. If it's to get assistance with my plugin/service or to suggest new features; I'm here to listen.
+Whether you're a hosting company or a theme developer, we're here to help. If it's to get assistance with our plugin/service or to suggest new features; we're here to listen.
 
-**Here's how you can reach me:**
+**Here's how you can reach us:**
 
 [Create new issue on Github](https://github.com/ismaelyws/themely/issues) (click the green **New Issue** button)
 
-[Chat with me on Discord](https://discord.gg/f3m2Pmp)
+[Chat with us on Discord](https://discord.gg/f3m2Pmp)
 
-[Send me a direct message on Twitter](https://twitter.com/messages/compose?recipient_id=ismaelyws)
+Send an email to `support@themely.com`
 
-Call or text me on Whatsapp `+1 (514) 883-0132`
+Call or text on Whatsapp `+1 (514) 883-0132`
 
 Time Zone: Eastern Standard Time (GMT -4)
 
