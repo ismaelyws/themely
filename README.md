@@ -1,6 +1,8 @@
 # Introduction
 
-#### Our mission is to help web hosting companies & WordPress theme developers generate additional revenue.
+## Our mission
+
+Is to help web hosting companies & WordPress theme developers generate additional revenue.
 
 
 ## For Web Hosting Companies
