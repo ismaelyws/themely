@@ -78,7 +78,7 @@ To **install** the plugin follow the steps below:
 Log into WHM and,
 
 - Make sure ionCube Loader is enabled (*WHM > Server Configuration > Tweak Settings > PHP > cPanel PHP Loader*).
-- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privilege: `list-accts` (Themely doesn't require full access, just this privilege is sufficient).
+- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privilege: `list-accts`. Only this privilege is required. This is used to perform a single call to the WHM API to get the number of cPanel accounts on a server.
 - Add port 3306 to outgoing TCP ports in your firewall settings (*WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports*).
 
 ### Step 3
