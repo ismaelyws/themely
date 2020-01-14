@@ -78,7 +78,7 @@ To **install** the plugin follow the steps below:
 Log into WHM and,
 
 - Make sure ionCube Loader is enabled (*WHM > Server Configuration > Tweak Settings > PHP > cPanel PHP Loader*).
-- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privileges `list-accts` & `create-user-session` (Themely doesn't require full access, just those 2 privileges is enough).
+- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privilege: `list-accts` (Themely doesn't require full access, just this privilege is sufficient).
 - Add port 3306 to outgoing TCP ports in your firewall settings (*WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports*).
 
 ### Step 3
@@ -128,7 +128,7 @@ Whether you're a hosting company or a theme developer, we're here to help. If it
 
 [Chat with us on Discord](https://discord.gg/f3m2Pmp)
 
-Send an email to `support@themely.com`
+Send an email to `hans@themely.com`
 
 Call or text on Whatsapp `+1 (514) 883-0132`
 
