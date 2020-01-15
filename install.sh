@@ -45,5 +45,5 @@ mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 rm archive.tgz
 rm install.sh
 echo "------------------------------------"
-echo "Themely successfully installed! Proceed to WHM > Plugins > Themely and enter your license key, authentication token & API token to activate your server."
+echo "Themely successfully installed! Proceed to WHM > Plugins > Themely and enter your license key & API token to activate your server."
 echo "------------------------------------"
