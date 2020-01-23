@@ -11,7 +11,12 @@ echo "-------------------------------------------------"
 /usr/local/cpanel/bin/unregister_appconfig /var/cpanel/apps/themely.conf
 # Remove the plugin folders & files
 rm -rf /usr/local/cpanel/base/frontend/paper_lantern/themely
-rm -rf /usr/local/cpanel/whostmgr/docroot/templates/themely
+if [ -d /usr/local/cpanel/whostmgr/docroot/3rdparty/themely ]; then
+	rm -rf /usr/local/cpanel/whostmgr/docroot/3rdparty/themely
+fi
+if [ -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
+	rm -rf /usr/local/cpanel/whostmgr/docroot/templates/themely
+fi
 # Remove the cronjob file
 if [ -f /etc/cron.daily/themelycron ]; then
 	rm /etc/cron.daily/themelycron
