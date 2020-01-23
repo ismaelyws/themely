@@ -17,9 +17,9 @@ if [ ! -d /var/cpanel/apps ]; then
 	chmod 755 /var/cpanel/apps
 fi
 # Create directory for WHM plugin
-if [ ! -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
-	mkdir -p /usr/local/cpanel/whostmgr/docroot/templates/themely
-	chmod 755 /usr/local/cpanel/whostmgr/docroot/templates/themely
+if [ ! -d /usr/local/cpanel/whostmgr/docroot/3rdparty/themely ]; then
+	mkdir -p /usr/local/cpanel/whostmgr/docroot/3rdparty/themely
+	chmod 755 /usr/local/cpanel/whostmgr/docroot/3rdparty/themely
 fi
 # Get archive file from repository & place in root directory
 curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
@@ -35,12 +35,12 @@ mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
-mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
-mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
+mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/3rdparty/themely
+mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/3rdparty/themely
 # Install cPanel plugin
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
 # Register WHM plugin with AppConfig
-/usr/local/cpanel/bin/register_appconfig /usr/local/cpanel/whostmgr/docroot/templates/themely/themely.conf
+/usr/local/cpanel/bin/register_appconfig /usr/local/cpanel/whostmgr/docroot/3rdparty/themely/themely.conf
 # Remove installation files
 rm archive.tgz
 rm install.sh
