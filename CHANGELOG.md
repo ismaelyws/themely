@@ -1,3 +1,16 @@
+### 1.3.0 - January 29th, 2020
+
+**Changes:**
+
+- Changed URL to Help Center
+- Changed wording in Getting Started panel
+- Removed user phone and paypal email in User Information panel
+- Removed Earnings Information panel
+- Changed URL to Chaneglog
+- Changed URL to Update Instructions
+- Changed URL to contact us
+
+
 ### 1.2.0 - January 22nd, 2020
 
 **Changes:**
