@@ -1,14 +1,11 @@
 # Themely WordPress Auto-Installer & Directory
 
-#### Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world. Not only is it free, it pays you each month!
-
-#### Our mission is to help web hosting companies & WordPress theme developers generate additional revenue.
+#### Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes from talented developers around the world.
 
 ![Themely cPanel Plugin](https://raw.githubusercontent.com/ismaelyws/themely/master/assets/themely-card.png)
 
 ## For Web Hosting Companies
 
-- Earn monthly recurring revenue* (based on number of active accounts)
 - Offer your clients high-quality, free & secure WordPress themes from talented developers around the world.
 - Beginner friendly, simple & fast WordPress auto-installer.
 - Reduce WordPress related support tickets (we provide links to documentation & tutorials for WordPress).
@@ -19,8 +16,6 @@
 - WP admin single sign-on - after installation users can automatically sign into their Admin Dashboard.
 - Integration with WHMCS (automatically install WordPress after account creation) - download hook file https://github.com/ismaelyws/themely-whmcs-hook
 - Integration with cPanel WordPress Manager** (automatically detects & allows management of existing WordPress sites on an account)
-
-***Revenue**: US$0.05 (5 cents) per active cPanel account per month.*
 
 ***cPanel WordPress Manager**: The RPM-based WordPress cPAddon in WHM must be installed to access this feature (WHM >> Home >> cPanel >> Install cPAddons Site Software).*
 
@@ -72,14 +67,14 @@ To **install** the plugin follow the steps below:
 
 ### Step 1
 
-[Generate a license key and authentication token](https://directory.themely.com/keygen/api/licenses/generate/) (right click and open in new tab)
+[Generate a license key and authentication token](https://plugin.themely.com/generate.php) (right click and open in new tab)
 
 ### Step 2
 
 Log into WHM and,
 
 - Make sure ionCube Loader is enabled (*WHM > Server Configuration > Tweak Settings > PHP > cPanel PHP Loader*).
-- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privilege: `list-accts`. Only this privilege is required. This is used to perform a single call to the WHM API to get the number of cPanel accounts on a server.
+- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privileges: `basic-system-info` and `list-accts`. These privileges are required to perform WHM API calls to get the public IP address and number of accounts on the server.
 - Add port 3306 to outgoing TCP ports in your firewall settings (*WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports*).
 
 ### Step 3
