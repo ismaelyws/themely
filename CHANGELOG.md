@@ -1,3 +1,15 @@
+### 1.3.1 - February 7th, 2020
+
+**Changes:**
+
+- Changed wording for error message
+- Added styles for extra large screen sizes
+- Added styles for custom paperlantern themes
+- Removed 'Recommended' text in themes section
+- Added /?ref=themely to theme preview URLs
+- Added if statement to script.js for #wp_site_domain on demo accounts
+
+
 ### 1.3.0 - January 29th, 2020
 
 **Changes:**
@@ -21,6 +33,7 @@
 - Added basic-system-info privilege to themely.conf file
 - Added link to help.themely.com for FAQ's
 - Changed wording in Server Information panel
+
 
 ### 1.1.0 - January 14th, 2020
 
