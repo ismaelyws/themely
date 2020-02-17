@@ -1,3 +1,16 @@
+### 1.4.0 - February 17th, 2020
+
+**Changes:**
+
+- Switched from mysql to json for themes directory
+- Changed required ACLS in .conf file
+- Updated license.md
+- Changed and simplified some wording in cPanel dashboard
+- Removed requirement for WHM API key
+- Removed User Information panel in WHM dashboard
+- Removed License Information panel in WHM dashboard
+
+
 ### 1.3.1 - February 7th, 2020
 
 **Changes:**
