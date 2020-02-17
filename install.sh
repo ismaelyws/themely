@@ -29,7 +29,6 @@ tar -zxvf archive.tgz
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/classes.php /usr/local/cpanel/base/frontend/paper_lantern/themely
-mv /root/config.ini /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/style.css /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themely

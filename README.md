@@ -67,19 +67,11 @@ To **install** the plugin follow the steps below:
 
 ### Step 1
 
-[Generate a license key and authentication token](https://plugin.themely.com/generate.php) (right click and open in new tab)
+[Generate a license key](https://plugin.themely.com/generate.php) (right click and open in new tab)
 
 ### Step 2
 
-Log into WHM and,
-
-- Make sure ionCube Loader is enabled (*WHM > Server Configuration > Tweak Settings > PHP > cPanel PHP Loader*).
-- Generate an API token (*WHM > Development > Manage API Tokens*). Name it `Themely` and assign the following privileges: `basic-system-info` and `list-accts`. These privileges are required to perform WHM API calls to get the public IP address and number of accounts on the server.
-- Add port 3306 to outgoing TCP ports in your firewall settings (*WHM > ConfigServer Firewall > Firewall Configuration > All Outgoing TCP Ports*).
-
-### Step 3
-
-In the terminal run the following commands as root:
+Run the following commands as root,
 
 `wget -N https://raw.githubusercontent.com/ismaelyws/themely/master/install.sh`
 
@@ -87,9 +79,9 @@ In the terminal run the following commands as root:
 
 `./install.sh`
 
-### Step 4
+### Step 3
 
-Navigate to *WHM > Plugins > Themely* and enter your license key, authentication token and API token, then press the green button to activate your server.
+Navigate to *WHM > Plugins > Themely* and enter your license key, then press the green button to activate your server.
 
 
 ## Removal Instructions
