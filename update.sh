@@ -39,14 +39,14 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
 	mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 	# Uncompress locale zip files
-	tar -zxvf /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES/es_ES.tgz
-	tar -zxvf /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES/fr_FR.tgz
+	tar -zxvf es_ES.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
+	tar -zxvf fr_FR.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
 	# Re-install cPanel plugin
 	/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
 	# Remove installation files
 	rm archive.tgz
 	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES/es_ES.tgz
-	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES/fr_FR.tgz
+	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES/fr_FR.tgz
 	rm update.sh
 	echo "------------------------------------"
 	echo "Themely successfully updated!"
