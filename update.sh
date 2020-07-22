@@ -8,22 +8,6 @@ echo "Updating Themely cPanel/WHM Plugin"
 echo "-----------------------------------------------"
 # Check if directories exist
 if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
-	# Get archive file from repository & place in root directory
-	curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
-	# Uncompress archive file
-	tar -zxvf archive.tgz
-	# Move files to their respective directories
-	mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/classes.php /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/style.css /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/locale.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
-	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
-	mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 	# Check if locale directories exist
 	if [ ! -d /usr/local/cpanel/base/frontend/paper_lantern/themely/locale ]; then
 		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale
@@ -37,13 +21,32 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR
 		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
 	fi
-	# Uncompress locale zip file
-	tar -zxvf /usr/local/cpanel/base/frontend/paper_lantern/themely/locale.tgz
+	# Get archive file from repository & place in root directory
+	curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
+	# Uncompress archive file
+	tar -zxvf archive.tgz
+	# Move files to their respective directories
+	mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/classes.php /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/style.css /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/es_ES.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
+	mv /root/fr_FR.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
+	mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
+	mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
+	# Uncompress locale zip files
+	tar -zxvf /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/es_ES.tgz
+	tar -zxvf /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/fr_FR.tgz
 	# Re-install cPanel plugin
 	/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
 	# Remove installation files
 	rm archive.tgz
-	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale.tgz
+	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/es_ES.tgz
+	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/fr_FR.tgz
 	rm update.sh
 	echo "------------------------------------"
 	echo "Themely successfully updated!"
