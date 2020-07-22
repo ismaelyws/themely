@@ -39,8 +39,11 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
 	mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
 	# Uncompress locale zip files
+	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
 	tar -zxvf es_ES.tgz
+	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
 	tar -zxvf fr_FR.tgz
+	cd /root/
 	# Re-install cPanel plugin
 	/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
 	# Remove installation files
