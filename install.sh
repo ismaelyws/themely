@@ -23,7 +23,7 @@ if [ ! -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
 fi
 # Get archive file from repository & place in root directory
 curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
-# Uncompress archive file
+# Uncompress archive zip file
 tar -zxvf archive.tgz
 # Move files to their respective directories
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
@@ -33,15 +33,19 @@ mv /root/style.css /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
+mv /root/locale.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
 mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
+# Uncompress locale zip file
+tar -zxvf /usr/local/cpanel/base/frontend/paper_lantern/themely/locale.tgz
 # Install cPanel plugin
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
 # Register WHM plugin with AppConfig
 /usr/local/cpanel/bin/register_appconfig /usr/local/cpanel/whostmgr/docroot/templates/themely/themely.conf
 # Remove installation files
 rm archive.tgz
+rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale.tgz
 rm install.sh
 echo "------------------------------------"
 echo "Themely successfully installed! Proceed to WHM > Plugins > Themely and enter your license key to activate the server."
