@@ -68,7 +68,7 @@ cd /root/
 rm archive.tgz
 rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES/es_ES.tgz
 rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES/fr_FR.tgz
-rm update.sh
+rm install.sh
 echo "------------------------------------"
 echo "Themely successfully installed! Proceed to WHM > Plugins > Themely and enter your license key to activate the server."
 echo "------------------------------------"
