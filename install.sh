@@ -9,7 +9,17 @@ echo "-----------------------------------------------"
 # Create directory for cPanel plugin
 if [ ! -d /usr/local/cpanel/base/frontend/paper_lantern/themely ]; then
 	mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely
+	mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale
+	mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES
+	mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
+	mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR
+	mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
 	chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely
+	chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale
+	chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES
+	chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
+	chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR
+	chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
 fi
 # Create directory for WHM AppConfig file
 if [ ! -d /var/cpanel/apps ]; then

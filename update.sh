@@ -24,6 +24,19 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
 	mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
+	# Check if locale directories exist
+	if [ ! -d /usr/local/cpanel/base/frontend/paper_lantern/themely/locale ]; then
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
+	fi
 	# Uncompress locale zip file
 	tar -zxvf /usr/local/cpanel/base/frontend/paper_lantern/themely/locale.tgz
 	# Re-install cPanel plugin
