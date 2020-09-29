@@ -15,11 +15,19 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
 		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR
 		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR/LC_MESSAGES
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT
+		mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGES
 		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale
 		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES
 		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
 		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR
 		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR/LC_MESSAGES
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT
+		chmod 755 /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGES
 	fi
 	# Get archive file from repository & place in root directory
 	curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
@@ -35,14 +43,25 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/es_ES.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
 	mv /root/fr_FR.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
+	mv /root/ko_KR.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR/LC_MESSAGES
+	mv /root/pt_PT.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGES
 	mv /root/themely.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/themely
 	mv /root/themely.conf /usr/local/cpanel/whostmgr/docroot/templates/themely
 	mv /root/whm.php /usr/local/cpanel/whostmgr/docroot/templates/themely
+	if [ ! -f /usr/local/cpanel/whostmgr/docroot/templates/themely/settings.json ]; then
+		mv /root/settings.json /usr/local/cpanel/whostmgr/docroot/templates/themely
+	else
+		rm /root/settings.json
+	fi
 	# Uncompress locale zip files
 	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
 	tar -zxvf es_ES.tgz
 	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
 	tar -zxvf fr_FR.tgz
+	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR/LC_MESSAGES
+	tar -zxvf ko_KR.tgz
+	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGES
+	tar -zxvf pt_PT.tgz
 	cd /root/
 	# Re-install cPanel plugin
 	/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
@@ -50,6 +69,8 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	rm archive.tgz
 	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES/es_ES.tgz
 	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES/fr_FR.tgz
+	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR/LC_MESSAGES/ko_KR.tgz
+	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGES/pt_PT.tgz
 	rm update.sh
 	echo "------------------------------------"
 	echo "Themely successfully updated!"

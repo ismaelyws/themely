@@ -1,11 +1,20 @@
+### 1.4.7 - September 29th, 2020
+
+**Changes:**
+
+- ADD: Bundle plugins with each WP installation
+- ADD: Language strings for Korean
+- ADD: Language strings for Portuguese
+
+
 ### 1.4.4 - July 22nd, 2020
 
 **Changes:**
 
 - ADD: Progress bar
 - ADD: Locale detection
-- ADD: Language strings for French
-- ADD: Language strings for Spanish
+- ADD: Language strings for French & Spanish
+- ADD: Bundle Themely WordPress plugin with each installation
 - CHANGE: Header title
 - CHANGE: Company name in license
 - CHANGE: Name in cPanel plugin installation file
