@@ -1,3 +1,15 @@
+### 1.5.6 - January 28, 2021
+
+- ADD: WordPress instance manager (since cPanel’s WordPress Manager will eventually be deprecated)
+- ADD: Ability to delete WP instances
+- ADD: Ability to configure core updates for WordPress
+- ADD: Ability to enable Debug Mode, Debug Display and Debug Logs for each WordPress instance
+- ADD: Ability to configure WP Memory Limit
+- ADD: Animated Tutorial
+- ADD: Quick access links for each WP instance and Admin Dashboard
+- CHANGE: Select theme input checkbox changed to buttons
+
+
 ### 1.4.7 - September 29th, 2020
 
 **Changes:**

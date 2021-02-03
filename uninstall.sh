@@ -1,7 +1,7 @@
 #!/bin/sh
 # SCRIPT: uninstall.sh
 # PURPOSE: Remove the Themely cPanel/WHM plugin
-# AUTHOR: Ishmael 'Hans' Desjarlais <ismaelyws@gmail.com>
+# AUTHOR: Ishmael 'Hans' Desjarlais <hans@themely.com>
 clear
 echo "-------------------------------------------------"
 echo "Removing the Themely cPanel/WHM Plugin"

@@ -1,7 +1,7 @@
 #!/bin/sh
 # SCRIPT: install.sh
 # PURPOSE: Install the Themely cPanel/WHM plugin
-# AUTHOR: Ishmael 'Hans' Desjarlais <ismaelyws@gmail.com>
+# AUTHOR: Ishmael 'Hans' Desjarlais <hans@themely.com>
 clear
 if [ ! -d /usr/local/cpanel ]; then
 	echo "------------------------------------"
@@ -51,10 +51,12 @@ tar -zxvf archive.tgz
 # Move files to their respective directories
 mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/search.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
+mv /root/manager.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/classes.php /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/style.css /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/script.js /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/wordpress-logo.png /usr/local/cpanel/base/frontend/paper_lantern/themely
+mv /root/instructions.gif /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/LICENSE.md /usr/local/cpanel/base/frontend/paper_lantern/themely
 mv /root/es_ES.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
 mv /root/fr_FR.tgz /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES
