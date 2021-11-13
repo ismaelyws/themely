@@ -1,3 +1,8 @@
+### 1.5.7 - November 3rd, 2021
+
+- UPDATE: Version number of cPanel jQuery file required in index.live.php  
+
+
 ### 1.5.6 - January 28, 2021
 
 - ADD: WordPress instance manager (since cPanel’s WordPress Manager will eventually be deprecated)
