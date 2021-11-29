@@ -77,7 +77,7 @@ cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGE
 tar -zxvf pt_PT.tgz
 cd /root/
 # Install cPanel plugin
-/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
+/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz --theme=paper_lantern
 # Register WHM plugin with AppConfig
 /usr/local/cpanel/bin/register_appconfig /usr/local/cpanel/whostmgr/docroot/templates/themely/themely.conf
 # Remove installation files

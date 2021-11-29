@@ -65,8 +65,8 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGES
 	tar -zxvf pt_PT.tgz
 	cd /root/
-	# Re-install cPanel plugin
-	/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
+	# Reinstall cPanel plugin
+	/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz --theme=paper_lantern
 	# Remove installation files
 	rm archive.tgz
 	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES/es_ES.tgz
