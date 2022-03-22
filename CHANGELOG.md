@@ -1,3 +1,11 @@
+### 1.6.0 - March 22nd, 2022
+
+- ADD: Weekly automatic updates via cronjob
+- ADD: Ability to activate weekly automatic updates
+- REMOVE: Server activation via license key (no longer neccessary)
+- CHANGE: cPanel WordPress installer form modifications
+
+
 ### 1.5.7 - November 3rd, 2021
 
 - UPDATE: Version number of cPanel jQuery file required in index.live.php  
