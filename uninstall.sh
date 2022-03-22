@@ -4,7 +4,7 @@
 # AUTHOR: Ishmael 'Hans' Desjarlais <hans@themely.com>
 clear
 echo "-------------------------------------------------"
-echo "Removing the Themely cPanel/WHM Plugin"
+echo "Removing Themely cPanel/WHM Plugin"
 echo "-------------------------------------------------"
 # Unregister the plugins
 /usr/local/cpanel/scripts/uninstall_plugin /usr/local/cpanel/base/frontend/paper_lantern/themely/themely.tar.gz
@@ -13,11 +13,11 @@ echo "-------------------------------------------------"
 rm -rf /usr/local/cpanel/base/frontend/paper_lantern/themely
 rm -rf /usr/local/cpanel/whostmgr/docroot/templates/themely
 # Remove the cronjob file
-if [ -f /etc/cron.daily/themelycron ]; then
-	rm /etc/cron.daily/themelycron
+if [ -f /etc/cron.weekly/themelycron ]; then
+	rm /etc/cron.weekly/themelycron
 fi
 # Remove the uninstall.sh file from root directory
 rm uninstall.sh
 echo "----------------------------"
-echo "Themely successfully removed!"
+echo "Themely plugin successfully removed!"
 echo "----------------------------"

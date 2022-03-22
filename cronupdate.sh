@@ -1,11 +1,7 @@
 #!/bin/sh
-# SCRIPT: update.sh
-# PURPOSE: Update the Themely cPanel/WHM plugin
+# SCRIPT: cronupdate.sh
+# PURPOSE: Weekly update for Themely cPanel/WHM plugin
 # AUTHOR: Ishmael 'Hans' Desjarlais <hans@themely.com>
-clear
-echo "-----------------------------------------------"
-echo "Updating Themely cPanel/WHM Plugin"
-echo "-----------------------------------------------"
 # Check if directories exist
 if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
 	# Check if locale directories exist
@@ -32,6 +28,7 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	# Get archive file from repository & place in root directory
 	curl -s https://themely-cpanel.s3.amazonaws.com/archive.tgz > /root/archive.tgz
 	# Uncompress archive file
+	cd /root/
 	tar -zxvf archive.tgz
 	# Move files to their respective directories
 	mv /root/index.live.php /usr/local/cpanel/base/frontend/paper_lantern/themely
@@ -55,9 +52,6 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	else
 		rm /root/settings.json
 	fi
-	if [ -f /etc/cron.weekly/themelycron ]; then
-		rm /etc/cron.weekly/themelycron
-	fi
 	# Uncompress locale zip files
 	cd /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/es_ES/LC_MESSAGES
 	tar -zxvf es_ES.tgz
@@ -76,13 +70,4 @@ if [ -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ -d /usr/loc
 	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/fr_FR/LC_MESSAGES/fr_FR.tgz
 	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/ko_KR/LC_MESSAGES/ko_KR.tgz
 	rm /usr/local/cpanel/base/frontend/paper_lantern/themely/locale/pt_PT/LC_MESSAGES/pt_PT.tgz
-	rm update.sh
-	echo "------------------------------------"
-	echo "Themely successfully updated!"
-	echo "------------------------------------"
-fi
-if [ ! -d /usr/local/cpanel/base/frontend/paper_lantern/themely ] && [ ! -d /usr/local/cpanel/whostmgr/docroot/templates/themely ]; then
-	echo "-----------------------------------------------"
-	echo "Themely plugin not found, make sure you have successfully installed Themely before updating."
-	echo "-----------------------------------------------"
 fi
